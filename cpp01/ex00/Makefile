@@ -1,6 +1,6 @@
 NAME = zombie
 CXX = c++
-CXXFLAGS = -Wall -Wextra -Werror -std=c++98
+CXXFLAGS = -Wall -Wextra -Werror -std=c++98 -pedantic-errors
 
 SRCS = main.cpp zombie.cpp newzombie.cpp randomchump.cpp
 OBJS = $(SRCS:.cpp=.o)

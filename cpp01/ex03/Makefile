@@ -1,6 +1,6 @@
 NAME        = violence
 CXX         = c++
-CXXFLAGS    = -Wall -Wextra -Werror -std=c++98
+CXXFLAGS    = -Wall -Wextra -Werror -std=c++98 -pedantic-errors
 
 SRCS        = main.cpp weapon.cpp humanA.cpp humanB.cpp
 OBJS        = $(SRCS:.cpp=.o)

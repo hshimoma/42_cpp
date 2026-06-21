@@ -61,5 +61,3 @@ int main(int argc, char*argv[])
 	return (0);
 }
 
-//makeしたら実行　./replace test.txt "C" "C++"
-//するとtest.txt.replaceというファイルが生成されていて確認

@@ -16,5 +16,3 @@ void HumanB::attack()
 	else
 		std::cout << _name << " has no weapon to attack!" << std::endl;
 }
-
-

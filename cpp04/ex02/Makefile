@@ -1,8 +1,7 @@
-NAME        = brain
+NAME        = abstract_class
 CXX         = c++
 CXXFLAGS    = -Wall -Wextra -Werror -std=c++98 -pedantic-errors
-
-SRCS        = main.cpp
+SRCS        = main.cpp animal.cpp dog.cpp cat.cpp brain.cpp
 OBJS        = $(SRCS:.cpp=.o)
 RM          = rm -f
 

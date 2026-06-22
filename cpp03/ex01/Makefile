@@ -1,8 +1,8 @@
-NAME        = brain
+NAME        = scavtrap
 CXX         = c++
 CXXFLAGS    = -Wall -Wextra -Werror -std=c++98 -pedantic-errors
 
-SRCS        = main.cpp
+SRCS        = main.cpp claptrap.cpp scavtrap.cpp
 OBJS        = $(SRCS:.cpp=.o)
 RM          = rm -f
 

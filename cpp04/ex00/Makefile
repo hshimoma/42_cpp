@@ -1,7 +1,7 @@
 NAME        = polymorphism
 CXX         = c++
 CXXFLAGS    = -Wall -Wextra -Werror -std=c++98 -pedantic-errors
-SRCS        = main.cpp animal.cpp dog.cpp cat.cpp
+SRCS        = main.cpp animal.cpp dog.cpp cat.cpp WrongAnimal.cpp WrongCat.cpp
 OBJS        = $(SRCS:.cpp=.o)
 RM          = rm -f
 
